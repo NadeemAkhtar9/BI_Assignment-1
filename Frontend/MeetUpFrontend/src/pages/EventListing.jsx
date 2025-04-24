@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const EventListing = () => {
   const navigate = useNavigate();
-  const { data, loading, error } = useFetch("http://localhost:3000/meetups");
+  const { data, loading, error } = useFetch("https://bi-assignment-1-backend-iota.vercel.app/meetups");
   const [searchQuery, setSearchQuery] = useState("");
   const [eventType, setEventType] = useState("Both");
 
