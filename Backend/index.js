@@ -17,7 +17,7 @@ app.use(cors({
 
 initializeDatabase()
 app.get("/",(req,res)=>{
-    res.send("Recipe App")
+    res.send("Meetup App")
 }) 
 
 
