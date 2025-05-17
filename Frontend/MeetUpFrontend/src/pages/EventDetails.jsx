@@ -61,7 +61,36 @@ const EventDetail = () => {
       pricing: "Paid Event - $30",
       venue: "Online (Zoom link will be shared)",
       additionalInfo: ["Dress code: Formal", "Age restriction: 18+"]
-    }
+    },
+    {
+  id: 5,
+  title: "AI & Machine Learning Webinar",
+  date: "Wed Sep 20 2023 5:00:00 PM IST",
+  typeOfEvent: "Online",
+  tags: ["AI", "Machine Learning", "Webinar"],
+  imageUrl: "https://media.istockphoto.com/id/2205274485/photo/ai-technology-artificial-intelligence-brain-chip-wide-concepts-copy-space.jpg?s=1024x1024&w=is&k=20&c=B-KjimJoKLaU_YjD6Ew48FRJydpV1894FEE_G8rdLtM=",
+  description: "A detailed webinar exploring AI trends and machine learning techniques for enthusiasts and professionals alike.",
+  sessionTimings: "5:00 PM - 7:00 PM",
+  speakers: ["Dr. Ayesha Khan", "Rohit Sharma"],
+  pricing: "Free",
+  venue: "Online (Zoom link will be shared)",
+  additionalInfo: ["Bring your questions for Q&A", "Suitable for beginners and intermediates"]
+},
+{
+  id: 6,
+  title: "Remote Team Building Event",
+  date: "Fri Oct 6 2023 11:00:00 AM IST",
+  typeOfEvent: "Online",
+  tags: ["Team Building", "Remote Work", "Engagement"],
+  imageUrl: "https://images.freeimages.com/images/premium/previews/4718/47183930-team-building.jpg?fmt=webp&h=350",
+  description: "An interactive online event designed to boost teamwork and morale for remote employees.",
+  sessionTimings: "11:00 AM - 1:00 PM",
+  speakers: ["Neha Patel", "Karan Mehta"],
+  pricing: "Paid Event - $20",
+  venue: "Online (Microsoft Teams link will be shared)",
+  additionalInfo: ["Casual dress code", "Open to all remote workers"]
+}
+
   ];
 
   // Find the event based on the id
